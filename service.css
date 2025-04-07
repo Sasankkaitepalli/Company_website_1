@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: rgb(107, 92, 194);
+    background:black;
     height: 100%;
     width: 100%;
     margin: 0;
@@ -23,8 +23,8 @@ h2 {
     color: #333;
 }
 
-p {
-    color: #666;
+.p {
+    color:white;
     margin-bottom: 20px;
 }
 
@@ -36,15 +36,16 @@ p {
     max-width: 1200px;
     margin: 0 auto;
 }
-
 .service-box {
-    background:white;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border: rgb(37, 201, 100) 10px double;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(169, 201, 163, 0.1);
     transition: transform 0.3s;
     height: auto;
     width: 100%;
+    background: linear-gradient(to right,rgb(245, 245, 243),rgb(142, 179, 159));
+    
 }
 
 .service-box:hover {
@@ -72,12 +73,18 @@ h3 {
 
 ul {
     padding-left: 20px;
+    list-style: none;
 
 }
 
 ul li::marker {
     color: rgb(167, 68, 214);
     font-size: 1.2em;
+}
+
+ul li::before{
+    content: "✸";
+    color: rgb(13, 13, 15);
 }
 
 .iconss {
@@ -88,7 +95,7 @@ ul li::marker {
     margin-top: 10px;
 }
 
-/* Responsive Design */
+
 @media (max-width: 1024px) {
     .services-container {
         grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));

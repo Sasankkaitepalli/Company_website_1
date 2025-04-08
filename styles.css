@@ -66,8 +66,7 @@ nav ul li a {
 
 .hero {
     padding: 100px 20px;
-    background: linear-gradient(to right, #ed1785, #f21808);
-
+    background-color:#0e579f;
 }
 
 .hero h1 {

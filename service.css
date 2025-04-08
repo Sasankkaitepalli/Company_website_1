@@ -38,7 +38,7 @@ h2 {
 }
 .service-box {
     padding: 20px;
-    border: rgb(37, 201, 100) 10px double;
+    border: rgb(228, 219, 170) 5px solid;
     border-radius: 15px;
     box-shadow: 0px 0px 10px rgba(169, 201, 163, 0.1);
     transition: transform 0.3s;
